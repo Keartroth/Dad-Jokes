@@ -1,11 +1,20 @@
-import { dadJokeList } from "./jokeList";
+import { dadJokeList } from "./jokeList.js";
+
 
 export const initializeJokeButton = () => {
-    const getNewJokeButton = document.querySelector(".newJoke");
-    getNewJokeButton.addEventListener(
-        "click",
-        theEvent => {
-            dadJokeList();
-        }
+ document.querySelector("#container").addEventListener(
+     "click", 
+     theEvent => {
+     const theDialog = document.querySelector("#dialog--answer");
+     if (theEvent.target.id === "button--answer") {
+        theDialog.showModal();
+     }
+     if (theEvent.target.id === "button--close") {
+         theDialog.close();
+     }
+     if (theEvent.target.id === "newJoke") {
+        dadJokeList();
+     }
+    }
     )
 }

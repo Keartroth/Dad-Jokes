@@ -39,14 +39,24 @@ body {
 }
 
 .jokeContainer {
-	background-color: whitesmoke;
+	background-color: rgb(152, 152, 255);
 	border: 2px groove black;
 	margin: 250px auto;
 	padding: 15px 100px;
 }
 
-.newJoke {
+button {
 	border: 2px solid black;
 	display: block;
-	margin: auto;
+	margin: 20px auto;
+	outline: none;
+}
+
+#button--close {
+	padding: 2px;
+	position: absolute;
+	top: 2px;
+	right: 2px;
+	background-color: red;
+	margin: 0px;
 }
