@@ -16,6 +16,20 @@ textarea {
 h1,h2,h3,h4,h5,h6 {
   font-family: "Patua One", serif;
   letter-spacing: 2px;
+  text-align: center;
+}
+
+h4 {
+	margin-bottom: 2px;
+	font-size: 2em;
+}
+
+h6 {
+	margin-top: 2px;
+}
+
+body {
+	background-color: silver;
 }
 
 #container {
@@ -25,7 +39,14 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .jokeContainer {
+	background-color: whitesmoke;
 	border: 2px groove black;
-	width: 400px;
-	margin: 5px auto;
+	margin: 250px auto;
+	padding: 15px 100px;
+}
+
+.newJoke {
+	border: 2px solid black;
+	display: block;
+	margin: auto;
 }
