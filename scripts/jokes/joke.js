@@ -6,7 +6,7 @@ export const jokeHTML = (jokeObject) => {
     <p>Question: "${jokeObject.question}"</p>
     <button id="button--answer">Answer</button>
     <dialog id="dialog--answer">
-    <button id="button--close">x</button>
+    <button id="button--close">❌</button>
         <p>Answer: "${jokeObject.answer}"</p>
         <button id="newJoke">See another!</button>
     </dialog>

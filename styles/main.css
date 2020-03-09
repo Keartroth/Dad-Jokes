@@ -13,36 +13,8 @@ textarea {
 	line-height: 1.5;
 }
 
-h1,h2,h3,h4,h5,h6 {
-  font-family: "Patua One", serif;
-  letter-spacing: 2px;
-  text-align: center;
-}
-
-h4 {
-	margin-bottom: 2px;
-	font-size: 2em;
-}
-
-h6 {
-	margin-top: 2px;
-}
-
 body {
 	background-color: silver;
-}
-
-#container {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-}
-
-.jokeContainer {
-	background-color: rgb(152, 152, 255);
-	border: 2px groove black;
-	margin: 250px auto;
-	padding: 15px 100px;
 }
 
 button {
@@ -53,10 +25,40 @@ button {
 }
 
 #button--close {
+	margin: 0px;
 	padding: 2px;
 	position: absolute;
-	top: 2px;
 	right: 2px;
-	background-color: red;
-	margin: 0px;
+	top: 2px;
+}
+
+#container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#dialog--answer {
+	padding: 2em;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Patua One", serif;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+h4 {
+	font-size: 2em;
+	margin-bottom: 2px;
+}
+
+h6 {
+	margin-top: 2px;
+}
+
+.jokeContainer {
+	background-color: rgb(152, 152, 255);
+	border: 2px groove black;
+	margin: 250px auto;
+	padding: 25px 100px;
 }
